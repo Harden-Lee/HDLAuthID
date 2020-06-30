@@ -15,29 +15,26 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - GTMBase64 (1.0.1)
-  - HDLAuthID (0.1.1):
-    - HDLAuthID/Base64AES (= 0.1.1)
-  - HDLAuthID/Base64AES (0.1.1):
+  - HDLAuthID (0.1.2):
+    - HDLAuthID/Base64AES (= 0.1.2)
+  - HDLAuthID/Base64AES (0.1.2):
     - GTMBase64
 
 DEPENDENCIES:
   - AFNetworking
-  - HDLAuthID (from `../`)
+  - HDLAuthID
 
 SPEC REPOS:
   trunk:
     - AFNetworking
     - GTMBase64
-
-EXTERNAL SOURCES:
-  HDLAuthID:
-    :path: "../"
+    - HDLAuthID
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   GTMBase64: f0f91be06a7a20b84c8e4fee30c0430395091d82
-  HDLAuthID: 15aba8a5e82fc2aae58a74f16b72ec6b1413d6cb
+  HDLAuthID: 16f31f2b6b5ba8abe4fee3edeea442e310409d5b
 
-PODFILE CHECKSUM: 57ce869914a4667c60c170676764d6af8060e08d
+PODFILE CHECKSUM: 571114fb04508739e2d37c5de4aa5425dc80ac75
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.9.1

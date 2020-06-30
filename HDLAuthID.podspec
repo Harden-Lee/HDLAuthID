@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HDLAuthID'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of HDLAuthID.'
 
 # This description is used to generate tags and improve search results.
@@ -31,11 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.subspec 'Base64AES' do |base64|
-      base64.source_files = 'AGXMLRequest/Classes/Base64+AES/**/*'
+      base64.source_files = 'HDLAuthID/Classes/Base64+AES/*.{h,m}'
       base64.dependency 'GTMBase64'
    end
   
-  s.source_files = 'HDLAuthID/Classes/**/*'
+  s.source_files = 'HDLAuthID/Classes/*.{h,m}'
   
 
   

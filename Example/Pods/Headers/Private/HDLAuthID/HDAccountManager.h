@@ -1,1 +1,1 @@
-../../../../../HDLAuthID/Classes/HDAccountManager.h
+../../../HDLAuthID/HDLAuthID/Classes/HDAccountManager.h

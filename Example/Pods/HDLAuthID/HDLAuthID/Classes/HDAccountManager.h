@@ -8,6 +8,9 @@
 #import <Foundation/Foundation.h>
 #import "HDLAuthID.h"
 
+#define AUTHID_SECREY_KEY @"AES 加密的密钥"
+#define LOGINACCOUNT @"登录账户保存到 NSUserDefaults key"
+
 /**
  *  TouchID/FaceID 状态
  */

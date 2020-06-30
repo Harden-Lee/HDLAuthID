@@ -6,6 +6,7 @@
 //
 
 #import "HDAccountManager.h"
+#import "NSString+AES.h"
 
 @interface HDAccountManager()
 

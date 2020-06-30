@@ -237,6 +237,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Harden-Lee";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 2Z6268YH43;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -444,6 +447,7 @@
 			baseConfigurationReference = 4F5163A501E6319C82936EB6 /* Pods-HDLAuthID_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Z6268YH43;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HDLAuthID/HDLAuthID-Prefix.pch";
 				INFOPLIST_FILE = "HDLAuthID/HDLAuthID-Info.plist";
@@ -460,6 +464,7 @@
 			baseConfigurationReference = 7B1356D7A52D6027BA7067EC /* Pods-HDLAuthID_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Z6268YH43;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HDLAuthID/HDLAuthID-Prefix.pch";
 				INFOPLIST_FILE = "HDLAuthID/HDLAuthID-Info.plist";

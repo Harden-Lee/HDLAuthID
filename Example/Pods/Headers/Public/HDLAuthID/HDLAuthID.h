@@ -1,1 +1,1 @@
-../../../../../HDLAuthID/Classes/HDLAuthID.h
+../../../HDLAuthID/HDLAuthID/Classes/HDLAuthID.h
